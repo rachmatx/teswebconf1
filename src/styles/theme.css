@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #545b69;
+  --color-secondary: #391872;
+  --color-accent: #3f7983;
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --color-muted: #71717a;
+  --radius: 0.25rem;
+  --font-heading: "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --font-size-base: 1rem;
+  --heading-weight: 600;
+  --max-width: 1024px;
+  --section-padding: 5rem;
+  --container-padding: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
+    --color-muted: #a1a1aa;
+  }
+}
+
+
