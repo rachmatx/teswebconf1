@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updatedAt": "2026-07-13T13:29:30.266Z",
+    "stack": "astro"
+  },
+  "brand": {
+    "name": "tes1",
+    "tagline": "Built with Web Configurator"
+  },
+  "theme": {
+    "primaryColor": "#545b69",
+    "secondaryColor": "#391872",
+    "accentColor": "#3f7983",
+    "backgroundColor": "#ffffff",
+    "foregroundColor": "#171717",
+    "mutedColor": "#71717a",
+    "borderRadius": "sm",
+    "darkMode": "light"
+  },
+  "typography": {
+    "headingFont": "Inter",
+    "bodyFont": "Inter",
+    "monoFont": "Geist Mono",
+    "baseFontSize": "md",
+    "headingWeight": "semibold"
+  },
+  "layout": {
+    "maxWidth": "lg",
+    "sectionPadding": "normal",
+    "containerPadding": "md"
+  },
+  "navigation": {
+    "header": [
+      {
+        "id": "nav-home",
+        "label": "Home",
+        "href": "/",
+        "external": false,
+        "visible": true
+      },
+      {
+        "id": "nav-about",
+        "label": "About",
+        "href": "/about",
+        "external": false,
+        "visible": true
+      },
+      {
+        "id": "nav-contact",
+        "label": "Contact",
+        "href": "/contact",
+        "external": false,
+        "visible": true
+      }
+    ],
+    "footer": [
+      {
+        "id": "footer-links",
+        "title": "Links",
+        "links": [
+          {
+            "id": "footer-home",
+            "label": "Home",
+            "href": "/",
+            "external": false,
+            "visible": true
+          },
+          {
+            "id": "footer-about",
+            "label": "About",
+            "href": "/about",
+            "external": false,
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "showLogoInHeader": true,
+    "stickyHeader": true
+  },
+  "seo": {
+    "title": "My Website",
+    "description": "A website configured with Web Configurator",
+    "keywords": [],
+    "ogType": "website",
+    "twitterCard": "summary_large_image",
+    "robots": "index"
+  },
+  "pages": [
+    {
+      "id": "page-home",
+      "slug": "home",
+      "title": "Home",
+      "description": "Welcome to my website",
+      "published": true,
+      "showInNav": true,
+      "sections": [
+        {
+          "id": "hero-home",
+          "visible": true,
+          "type": "hero",
+          "heading": "Welcome to My Websitepuuu",
+          "subheading": "Configure everything from one dashboard — theme, pages, SEO, and more.",
+          "ctaPrimary": {
+            "label": "Get Started",
+            "href": "/contact",
+            "external": false
+          },
+          "ctaSecondary": {
+            "label": "Learn More",
+            "href": "/about",
+            "external": false
+          },
+          "alignment": "center"
+        },
+        {
+          "id": "features-home",
+          "visible": true,
+          "type": "features",
+          "heading": "Why use Web Configurator?",
+          "subheading": "Everything you need to launch a site fast.",
+          "columns": 2,
+          "items": [
+            {
+              "id": "feature-1",
+              "icon": "palette",
+              "title": "Full Theme Control",
+              "description": "Colors, fonts, spacing — all configurable without touching code."
+            },
+            {
+              "id": "feature-2",
+              "icon": "layout",
+              "title": "Flexible Sections",
+              "description": "Hero, features, FAQ, gallery, and more. Mix and match freely."
+            },
+            {
+              "id": "feature-3",
+              "icon": "rocket",
+              "title": "Auto Deploy",
+              "description": "Save your config and deploy to Vercel automatically via Git."
+            }
+          ]
+        },
+        {
+          "id": "cta-home",
+          "visible": true,
+          "type": "cta",
+          "heading": "Ready to launch?",
+          "subheading": "Start configuring your site today.",
+          "buttonLabel": "Contact Us",
+          "buttonHref": "/contact",
+          "buttonExternal": false,
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "id": "page-about",
+      "slug": "about",
+      "title": "About",
+      "description": "About us",
+      "published": true,
+      "showInNav": true,
+      "sections": [
+        {
+          "id": "text-about",
+          "visible": true,
+          "type": "text",
+          "heading": "About Us",
+          "content": "This page is powered by a JSON config file. Edit it in the Web Configurator dashboard and changes deploy automatically.",
+          "alignment": "left"
+        }
+      ]
+    },
+    {
+      "id": "page-contact",
+      "slug": "contact",
+      "title": "Contact",
+      "description": "Get in touch",
+      "published": true,
+      "showInNav": true,
+      "sections": [
+        {
+          "id": "contact-main",
+          "visible": true,
+          "type": "contact",
+          "heading": "Get in Touch",
+          "subheading": "We'd love to hear from you.",
+          "email": "hello@example.com",
+          "showForm": true
+        }
+      ]
+    }
+  ],
+  "analytics": {
+    "customScripts": []
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "socialLinks": []
+  },
+  "blog": {
+    "enabled": false,
+    "postsPerPage": 10
+  },
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "customCode": {
+    "headScripts": [],
+    "bodyScripts": [],
+    "customCss": ""
+  },
+  "integrations": {},
+  "deployment": {
+    "githubBranch": "main"
+  }
+}
