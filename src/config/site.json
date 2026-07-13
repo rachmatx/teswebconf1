@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "updatedAt": "2026-07-13T13:29:30.266Z",
+    "updatedAt": "2026-07-13T13:30:20.667Z",
     "stack": "astro"
   },
   "brand": {
@@ -9,7 +9,7 @@
     "tagline": "Built with Web Configurator"
   },
   "theme": {
-    "primaryColor": "#545b69",
+    "primaryColor": "#1a59d5",
     "secondaryColor": "#391872",
     "accentColor": "#3f7983",
     "backgroundColor": "#ffffff",
@@ -101,7 +101,7 @@
           "visible": true,
           "type": "hero",
           "heading": "Welcome to My Websitepuuu",
-          "subheading": "Configure everything from one dashboard — theme, pages, SEO, and more.",
+          "subheading": "askjdkwajsdwa",
           "ctaPrimary": {
             "label": "Get Started",
             "href": "/contact",
@@ -118,7 +118,7 @@
           "id": "features-home",
           "visible": true,
           "type": "features",
-          "heading": "Why use Web Configurator?",
+          "heading": "Why use Web Configurator? asdwasd",
           "subheading": "Everything you need to launch a site fast.",
           "columns": 2,
           "items": [
